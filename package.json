@@ -15,6 +15,7 @@
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/hash": "^5.7.0",
     "@ethersproject/strings": "^5.7.0",
+    "@gtm-support/vue2-gtm": "^2.0.0",
     "animate.css": "^4.1.1",
     "apexcharts": "^3.22.2",
     "awesome-bootstrap-checkbox": "^1.0.1",

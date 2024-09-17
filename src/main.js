@@ -10,7 +10,7 @@ import VueApexCharts from "vue-apexcharts";
 import VueLoaders from "vue-loaders";
 import VueTimers from "vue-timers";
 import { ObserveVisibility } from "vue-observe-visibility";
-
+import VueGtm from '@gtm-support/vue2-gtm';
 import "vue-loaders/dist/vue-loaders.css";
 import "vue-virtual-scroller/dist/vue-virtual-scroller.css";
 
@@ -34,6 +34,11 @@ Vue.mixin(utilsMixin);
 Vue.use(Toasted, { duration: 10000 });
 Vue.use(VueLoaders);
 Vue.use(VueTimers);
+
+Vue.use(VueGtm, {
+  id: 'GTM-P74RCNT3',
+  vueRouter: router,
+});
 
 Vue.config.productionTip = false;
 
